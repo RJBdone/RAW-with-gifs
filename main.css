@@ -1,0 +1,67 @@
+/* RJB Art Website (RAW) CCS */
+/* Used to create unified style in fonts abd backgorund to webpages */
+/* Also to set up a div class for indebtation on Paraphrenalia page */
+/* and to define button foe the main webpage */
+
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+* {
+    font-family: 'Germania One';
+    color:rgb(10, 60, 153);
+}
+
+ * body {
+    background-image: url("Styal_decollage_1997.jpg");
+}
+
+.launch_button { 
+    background-color: rgb(106, 165, 111);
+    border: 10px solid rgb(22, 116, 9);
+    color: rgb(10, 60, 153);
+    padding: 5px 20px;
+    text-align: center;
+    font-style: normal;
+    display: inline-block;
+    transform: skew(-21deg);
+    font-size: 50px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.main_title {
+    position: absolute;
+    Background: rgb(134, 119, 32);
+    top: 10px;
+    right: 30px;
+}
+
+h1 {
+    font-size:xx-large;
+    color:darkgreen;
+}
+
+h2 {
+    font-style: italic;
+    color:rgb(48, 24, 7);
+   }
+
+h3 {
+    color:firebrick;
+    text-align: center;
+   }
+
+h4 {
+    text-align: center;
+    font-family: Georgia;
+    font-style: italic;
+    color:rgb(44, 65, 11);
+}
+
+p {
+    text-align: center;
+}
+
+div.indented01 {
+    position: relative;
+    left: 60px;
+  }
